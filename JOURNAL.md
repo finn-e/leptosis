@@ -70,3 +70,15 @@ Keeb got changed to 2 layers to reduce cost.
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/22b18948e9389de530df31c12106c7a6c502e44f_image.png)
 
 - 2h
+
+-----------
+
+## 29/06/2005
+
+Made the case, improved pcb and wrote out readme :D
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ec7e99cc7ab3e1dbbc609c731c3b195b4ccebed8_image.png)
+
+- 2h
+
+NOTE: https://github.com/adafruit/Adafruit_nRF52_Bootloader

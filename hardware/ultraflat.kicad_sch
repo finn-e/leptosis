@@ -399,6 +399,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -6508,10 +6615,6 @@
 		(uuid "c6f6d229-c206-4435-9009-2dc71086015a")
 	)
 	(no_connect
-		(at 125.73 237.49)
-		(uuid "cb0759d9-69b1-44ff-b1da-55fc8a9a4fb9")
-	)
-	(no_connect
 		(at 191.77 194.31)
 		(uuid "d38609da-3ac0-42d0-9c21-a80044f26770")
 	)
@@ -6534,10 +6637,6 @@
 	(no_connect
 		(at 191.77 143.51)
 		(uuid "ecfb4662-b169-432a-93c3-e281daeaf517")
-	)
-	(no_connect
-		(at 125.73 240.03)
-		(uuid "f1a751a8-23e7-4979-8613-8ec25f9dedc4")
 	)
 	(no_connect
 		(at 191.77 148.59)
@@ -8629,6 +8728,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 260.35) (xy 92.71 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775d0635-8bc2-470e-b2cf-0a6d9584f756")
+	)
+	(wire
+		(pts
 			(xy 369.57 34.29) (xy 370.84 34.29)
 		)
 		(stroke
@@ -9119,6 +9228,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 242.57) (xy 123.19 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955e9dfa-7e54-4536-aaa3-7974aa83cf90")
+	)
+	(wire
+		(pts
 			(xy 280.67 90.17) (xy 306.07 90.17)
 		)
 		(stroke
@@ -9266,6 +9385,16 @@
 			(type default)
 		)
 		(uuid "9f837991-636e-4fae-9ae8-4d27013381d2")
+	)
+	(wire
+		(pts
+			(xy 123.19 237.49) (xy 125.73 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdada0f-f99a-4a2d-9bd8-6d961b9b75cf")
 	)
 	(wire
 		(pts
@@ -9999,6 +10128,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 242.57) (xy 124.46 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fcf516-6c84-4583-b14c-c0662349afb1")
+	)
+	(wire
+		(pts
 			(xy 35.56 63.5) (xy 27.94 63.5)
 		)
 		(stroke
@@ -10539,6 +10678,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 240.03) (xy 125.73 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42e70d3-21d6-459f-a2cb-e4a748faf67b")
+	)
+	(wire
+		(pts
 			(xy 52.07 36.83) (xy 50.8 36.83)
 		)
 		(stroke
@@ -10576,6 +10725,16 @@
 			(type default)
 		)
 		(uuid "e6cb69a7-afd3-4c02-a889-473b70202d02")
+	)
+	(wire
+		(pts
+			(xy 100.33 260.35) (xy 100.33 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81b4ae0-e2ae-4e33-b83d-31d2eb41a982")
 	)
 	(wire
 		(pts
@@ -11654,6 +11813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8545"
+			(at 339.09 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c317b2d7-120a-453b-8d94-700f4cc5d05d")
 		)
@@ -12199,7 +12367,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1035 "
 			(at 171.45 114.3 0)
 			(effects
 				(font
@@ -12218,6 +12386,72 @@
 			(project "ultraflat"
 				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 92.71 261.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aed2791-e7fd-4183-9adf-7e9f09a13157")
+		(property "Reference" "#PWR069"
+			(at 92.71 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 92.71 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 92.71 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01ce9a64-78f0-4f73-9fcd-33b96e385d45")
+		)
+		(instances
+			(project ""
+				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12378,7 +12612,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1525 "
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -12593,6 +12827,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19666 "
+			(at 303.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b584daac-bede-4091-a2a6-0780a7cfa095")
 		)
@@ -12672,7 +12915,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C190794"
 			(at 158.75 191.77 0)
 			(effects
 				(font
@@ -13348,7 +13591,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25905 "
 			(at 55.88 29.21 90)
 			(effects
 				(font
@@ -13502,7 +13745,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1525 "
 			(at 176.53 43.18 0)
 			(effects
 				(font
@@ -13676,7 +13919,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C165948"
+		(property "LCSC Part #" "C223907"
 			(at 35.56 97.79 0)
 			(effects
 				(font
@@ -13866,7 +14109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1546"
 			(at 129.54 107.95 90)
 			(effects
 				(font
@@ -14107,7 +14350,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1035 "
 			(at 168.91 114.3 90)
 			(effects
 				(font
@@ -14188,6 +14431,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 314.96 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2290 "
+			(at 314.96 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14801,6 +15053,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19666 "
+			(at 247.65 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b833af0c-8425-45d0-8f9e-7baa415b68f6")
 		)
@@ -15223,6 +15484,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 314.96 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25867 "
 			(at 314.96 191.77 0)
 			(effects
 				(font
@@ -16031,7 +16301,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C165948"
+		(property "LCSC Part #" "C223907"
 			(at 35.56 39.37 0)
 			(effects
 				(font
@@ -16140,6 +16410,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 294.64 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
 			(at 294.64 201.93 0)
 			(effects
 				(font
@@ -16837,6 +17116,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 92.71 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "619eab42-52cd-4076-b825-aacbbd09098d")
+		(property "Reference" "TP3"
+			(at 93.98 250.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 250.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 97.79 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea2e2309-6c3f-4b99-ba0e-39fb668f96e7")
+		)
+		(instances
+			(project "ultraflat"
+				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 64.77 0)
 		(unit 1)
@@ -17235,6 +17578,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 100.33 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a79088-3126-46a3-b6c0-b07d5c1c5144")
+		(property "Reference" "#PWR068"
+			(at 100.33 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70da3a32-06b3-4445-ba98-83e52bb0be4d")
+		)
+		(instances
+			(project ""
+				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 350.52 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17536,6 +17945,70 @@
 			(project "ultraflat"
 				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 242.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6af05f49-3397-4314-9d9e-cc7e66654fee")
+		(property "Reference" "TP2"
+			(at 113.538 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.538 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 123.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "575137e0-edf8-41cf-93e7-9a27f5ca22f6")
+		)
+		(instances
+			(project "ultraflat"
+				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17954,7 +18427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25905 "
 			(at 55.88 87.63 90)
 			(effects
 				(font
@@ -18156,6 +18629,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76ae6c9c-a550-490c-b125-84c17cedaf5f")
+		(property "Reference" "TP1"
+			(at 113.538 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.538 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 123.19 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768a6c02-cb8f-47a4-98ea-e228d8105eaa")
+		)
+		(instances
+			(project ""
+				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ultraflat-lib:SW_Push_MP")
 		(at 248.92 34.29 0)
 		(mirror y)
@@ -18308,7 +18845,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19666 "
 			(at 137.16 43.18 0)
 			(effects
 				(font
@@ -18474,7 +19011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25905 "
 			(at 55.88 31.75 90)
 			(effects
 				(font
@@ -18560,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25905 "
 			(at 55.88 90.17 90)
 			(effects
 				(font
@@ -18901,6 +19438,70 @@
 			(project "ultraflat"
 				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8262abfc-e81e-4b5a-a126-17af8ac63142")
+		(property "Reference" "TP4"
+			(at 101.6 250.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 99.06 250.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 105.41 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fea287c-cbe0-4a03-a5d3-cb341b9b890d")
+		)
+		(instances
+			(project "ultraflat"
+				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -19296,6 +19897,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744 "
+			(at 388.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4a4d143-b236-40ec-b58e-baf811767872")
 		)
@@ -19358,6 +19968,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
 			(at 104.14 228.6 0)
 			(effects
 				(font
@@ -19853,6 +20472,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744 "
+			(at 361.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98d563e2-c397-4b5a-bcf3-dbdb7ada1860")
 		)
@@ -20020,7 +20648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19666 "
 			(at 123.19 43.18 0)
 			(effects
 				(font
@@ -20174,7 +20802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19666 "
 			(at 152.4 43.18 0)
 			(effects
 				(font
@@ -20487,6 +21115,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 255.27 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25867 "
 			(at 255.27 201.93 0)
 			(effects
 				(font
@@ -20866,6 +21503,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 331.47 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744 "
 			(at 331.47 189.23 0)
 			(effects
 				(font
@@ -21463,7 +22109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1525 "
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -21666,6 +22312,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 331.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076 "
 			(at 331.47 179.07 0)
 			(effects
 				(font
@@ -23190,6 +23845,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 264.16 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7dba4bd1-9097-4cc9-946d-48616872620c")
 		)
@@ -23575,7 +24239,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1525 "
 			(at 129.54 114.3 90)
 			(effects
 				(font
@@ -24826,7 +25490,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C15849 "
 			(at 129.54 95.25 90)
 			(effects
 				(font
@@ -24911,7 +25575,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19666 "
 			(at 129.54 82.55 90)
 			(effects
 				(font
@@ -25442,7 +26106,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C15849 "
 			(at 165.1 43.18 0)
 			(effects
 				(font
