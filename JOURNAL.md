@@ -73,7 +73,7 @@ Keeb got changed to 2 layers to reduce cost.
 
 -----------
 
-## 29/06/2005
+## 29/06/2025
 
 Made the case, improved pcb and wrote out readme :D
 
@@ -82,3 +82,41 @@ Made the case, improved pcb and wrote out readme :D
 - 2h
 
 NOTE: https://github.com/adafruit/Adafruit_nRF52_Bootloader
+
+-----------
+
+This is the end of v1, I am not happy with this
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/2eecbfae4ea066aa8ff0b8facc47b96d9bbbbc99_image.png)
+
+- 1h
+
+-----------
+
+## 02,03,04/07/2025
+
+Finished with the keys
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/864c1a2c623fc7283243b0ffe90a8178df1d44f6_image.png)
+
+- 4.5h :O
+
+-----------
+
+## 04/07/2025
+
+Now the main layout is done :D
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/6f0a50c29af6cb036356792b6d805b5e13695af4_image.png)
+
+- 3h
+
+-----------
+
+## 05-06/07/2025
+
+And I've also finished the right side!!!
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/02141a62144210c4f89702bedfaa414e6e2c939f_image.png)
+
+- 3h

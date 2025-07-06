@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "leptosis-lib")(type "KiCad")(uri "/home/cyao/Developer/ultraflat/hardware/library/ultraflat-lib.kicad_sym")(options "")(descr ""))
+)

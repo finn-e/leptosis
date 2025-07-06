@@ -1,0 +1,167 @@
+(footprint "Switch_Sink_MINI_MSK12CO2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "165014bb-8671-430a-9f25-4a0e1acafb9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Switch_Sink_MINI_MSK12CO2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46e80592-3a71-4e1e-bb8c-a1702c8224bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab0a8181-3272-47cf-bd00-609d875247ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d4c59e8-529a-4327-a474-411e68091dfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.625 -1.5)
+		(end -2.625 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9bc1833f-a7e3-480f-93f2-eb79da51eff4")
+	)
+	(fp_line
+		(start 2.625 -1.5)
+		(end -2.625 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f9168dd-d5c2-4351-ab43-d5cd7b9eaba3")
+	)
+	(fp_line
+		(start 2.625 1.5)
+		(end 2.625 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "586304e1-4e6c-4ede-9726-03025385ce4b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e21eeae-e2b7-423f-866e-381571d18f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 -1.85)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c3043a8f-353b-42fe-9ee2-f5fd7b24e348")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.85)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "54488506-7e39-43a1-8693-4e74b59158c8")
+	)
+	(pad "3" smd roundrect
+		(at 1 -1.85)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f9f8f9c0-2eec-4fcd-843e-dd29de9351a3")
+	)
+	(pad "MT" smd roundrect
+		(at -2.8 -1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "21a2f738-5ec0-487a-9faf-9ebc9ad75b7a")
+	)
+	(pad "MT" smd roundrect
+		(at -2.8 1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "47dcdd34-4b00-4836-b651-d8de2307b631")
+	)
+	(pad "MT" smd roundrect
+		(at 2.8 -1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "879b67fb-f1eb-4e98-a022-e973cfb5b1db")
+	)
+	(pad "MT" smd roundrect
+		(at 2.8 1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e28e2fae-635e-443c-b4c5-5411a535f384")
+	)
+	(embedded_fonts no)
+	(model "/home/cyao/Developer/ultraflat/hardware/library/leptiosis.pretty/SW-SMD_MSK12CO2.step"
+		(offset
+			(xyz 0 0 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

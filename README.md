@@ -27,3 +27,7 @@ Total: 9.0mm
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ec7e99cc7ab3e1dbbc609c731c3b195b4ccebed8_image.png)
 
+| Left | Right |
+| ---- | ----- |
+| ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/93c19a7e2f73b48492104c29d259a4b94f9fd808_image.png) | ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/02141a62144210c4f89702bedfaa414e6e2c939f_image.png) |
+
