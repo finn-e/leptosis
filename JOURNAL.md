@@ -1,5 +1,11 @@
+---
+Title: "Leptosis"
+Author: "Cyao"
+Description: "Leptosis"
+Created On: "25/6/2005"
+---
 
-Time spent:
+Time spent: 29h
 
 ## 25/06/2005
 
@@ -109,7 +115,7 @@ Now the main layout is done :D
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/6f0a50c29af6cb036356792b6d805b5e13695af4_image.png)
 
-- 3h
+- 3.5h
 
 -----------
 
@@ -120,3 +126,19 @@ And I've also finished the right side!!!
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/02141a62144210c4f89702bedfaa414e6e2c939f_image.png)
 
 - 3h
+
+
+-----------
+
+The case is also finished!
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/23edbb57a7ef36e5c4a47974ee4243b9c40d1baa_image.png)
+
+- 1h
+
+-----------
+
+Aaand I finally shipped everything :yay:
+
+- 1h
+
