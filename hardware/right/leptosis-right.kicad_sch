@@ -12234,72 +12234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 341.63 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29c82c73-cafc-4fb6-9a13-0ceebae93ed2")
-		(property "Reference" "#PWR057"
-			(at 341.63 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 341.63 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 341.63 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 341.63 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdf91d81-112c-4525-969e-db15a7efa3ab")
-		)
-		(instances
-			(project "ultraflat"
-				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 373.38 124.46 90)
 		(unit 1)
@@ -15668,6 +15602,72 @@
 			(project "ultraflat"
 				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 341.63 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63339a69-1e1f-4eb5-9417-8ac63cce7e98")
+		(property "Reference" "#PWR026"
+			(at 341.63 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 341.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 341.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31f6768e-2140-41d2-9457-50518a65b9db")
+		)
+		(instances
+			(project "leptosis-right"
+				(path "/01d7edc0-7482-4d3c-92ca-d3e34643e937"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
