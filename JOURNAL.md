@@ -5,7 +5,7 @@ Description: "Leptosis"
 Created On: "25/6/2005"
 ---
 
-Time spent: 29h
+Time spent: 35h
 
 ## 25/06/2005
 
@@ -142,3 +142,28 @@ Aaand I finally shipped everything :yay:
 
 - 1h
 
+--------
+
+Tried PCBA myself, failed misserably. But made custon bootloader firmware! (https://github.com/cheyao/Adafruit_nRF52_Bootloader/)
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/78073b7baaebaa1dba0a8846db90e7620a040699_image.png)
+
+- 6h
+
+-----------
+
+Finally got PCBAed PCBs, and soldered on the switches and misc stuff myself
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f1fae426a5eab7e787720079346dcdd9b1c41e9c_img_20250824_223208.jpg)
+
+- 4h
+
+----------------
+
+Made the custom zmk firmware https://github.com/cheyao/zmk-config/, the zmk docs are a bit long lmao
+
+![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/13ee79028ec4c49e2d62969ea9190fe39f64bc65_leptosis.jpg)
+
+Printed the case and voila!
+
+- 5h
