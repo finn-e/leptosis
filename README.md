@@ -6,7 +6,7 @@
 
 ## What is this?
 
-Leptosis is an ultra flat split bluetooth keyboard. It's thickness will be ~7.5mm, and employs the compact miryoku layout. Using an onboard nrf module, it acheives an ultra long battery life.
+Leptosis is an ultra flat split bluetooth keyboard. It's thickness will be ~7.5mm, and employs the compact miryoku layout. Using an onboard nrf module, it achieves an ultra long battery life.
 
 | Left | Right |
 | ---- | ----- |
